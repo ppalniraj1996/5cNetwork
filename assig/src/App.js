@@ -1,5 +1,12 @@
+import Search from "./components/serach/Search";
+
+
 function App() {
-  return <h1>Welcome</h1>;
+  return(
+    <div>
+      <Search/>
+    </div>
+  ) 
 }
 
 export default App;
